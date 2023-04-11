@@ -75,7 +75,7 @@ for csv_file in os.listdir(csv_file_path):
 
                 json_data = json.loads(response.text)
 
-                # Sleep for 0.5 seconds before making the next API request
+                # Sleep for 0.2 seconds before making the next API request
                 time.sleep(0.2)
             else:
                 break
