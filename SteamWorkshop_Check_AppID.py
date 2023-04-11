@@ -21,8 +21,8 @@ for index, row in df.iterrows():
     response['appid'] = app_id
     api_responses.append(response)
 
-    # wait for 2 seconds before moving on to the next App ID
-    time.sleep(2)
+    # wait for 1 second before moving on to the next App ID
+    time.sleep(1)
 
 # create a new dataframe from the list of API responses
 query_files_df = pd.DataFrame(api_responses)
