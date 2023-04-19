@@ -25,7 +25,7 @@ response = requests.get(url, params=params)
 json_data = json.loads(response.text)
 
 # Set the file path where the JSON files will be stored
-file_path = r"K:\Thesis Data\Sample B\Steam Workshop\Missing json 18-04"
+file_path = r"K:\Thesis Data\Sample B\Steam Workshop\json"
 
 # Check if the file path exists and create it if it does not
 if not os.path.exists(file_path):
