@@ -7,7 +7,7 @@ import requests
 final_sample_path = r"K:\Thesis Data\Sample B\Nexus Mods\nexus_games.csv"
 
 # Set the file path where the .csv files will be stored
-output_dir = r"K:\Thesis Data\Sample B\Nexus Mods\Sample B - Nexus downloads"
+output_dir = r"K:\Thesis Data\Sample B\Nexus Mods\nexus_downloads"
 
 # Set the headers for the GET request
 headers = {
