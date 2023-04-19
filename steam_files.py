@@ -18,10 +18,10 @@ default_params = {
     }
 
 # Set the file path where the CSV files are stored
-csv_file_path = r"H:\Thesis Data\Sample B\Steam Workshop\csv files for appid"
+csv_file_path = r"H:\Thesis Data\Sample B\Steam Workshop\csv"
 
 # Set the file path where the JSON files will be stored
-json_file_path = r"H:\Thesis Data\Sample B\Steam Workshop\Json"
+json_file_path = r"H:\Thesis Data\Sample B\Steam Workshop\json"
 
 # Check if the JSON file path exists and create it if it does not
 if not os.path.exists(json_file_path):
